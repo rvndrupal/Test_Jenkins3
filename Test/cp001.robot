@@ -16,6 +16,7 @@ Test Teardown   Cerrar setup
 
 *** Variable ***
 ${url}    https://thetestingworld.com/
+${dir}      Imagenes
 
 
 *** Keywords ***
@@ -35,6 +36,7 @@ TC001 Obtener valores de Excel
     recursos.Texto      //input[@id='jform_name']    rodrigo
     recursos.Texto  //input[@id='jform_username']  Rvn
     recursos.Texto  //input[@id='jform_password1']  demodelpassword
+    Resultado  .3    ${dir}/imagenuno.png     Imagen Ok
 
 
 
