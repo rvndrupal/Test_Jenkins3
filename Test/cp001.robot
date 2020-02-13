@@ -7,7 +7,7 @@ Test Teardown   Cerrar setup
 
 
 
-#  robot -d results  -i CasoUno  .\Excel3.robot
+#  robot -d results  -i CasoUno  cp001.robot
 
 #  robot -d results  -e CasoDos  .\Valores.robot  
 #la -e sirve para decir todos menos
