@@ -49,6 +49,16 @@ TC002 Caso de dos
     Resultado  .3    ${dir}/imagenuno.png     Imagen Ok
 
 
+TC002 Caso Tres
+    [Tags]  CasoTres
+    [Documentation]     Prueba caso tres
+    recursos.Click  //a[contains(@href,'users&view=login&Itemid=587')]
+    recursos.Click  //a[@href='/index.php?option=com_users&view=registration&Itemid=588'][contains(.,'Registration')]
+    recursos.Texto      //input[@id='jform_name']    rodrigo
+    recursos.Texto  //input[@id='jform_username']  Rvn
+    recursos.Texto  //input[@id='jform_password1']  demodelpassword
+    Resultado  .3    ${dir}/imagenuno.png     Imagen Ok
+
 
 
 
